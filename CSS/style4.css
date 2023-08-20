@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(35, 105, 98);
+    width: 100%;
+    position: fixed;
+    z-index: 999 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    direction: rtl;
+}
+body{
+    direction: inherit;
+    direction: rtl;
+}
+.logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    font-family: serif;
+
+}
+
+.navigation a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 530;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 3px solid rgb(255, 255, 255); 
+    border-radius: 50px;
+    background-color: rgb(0, 112, 102);
+    margin: 5px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'neckar';
+
+}
+
+.navigation a:hover{
+    color: black;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 2.9em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-style: calc();
+    font-family: 'neckar';
+}
+
+
+
+
+.aadi{
+    background-color: rgb(222, 215, 207);
+}
+
+.describ1{
+    border: #0A66C2 solid 2px;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 26em;
+    margin: auto;
+    font-family: 'neckar';
+    font-size: 25px;
+    font-weight: 600;
+    direction: rtl;
+    padding: 10px;
+}
+
+.advantitle{
+    display: flex;
+    justify-content: center;
+    color: rgb(91, 48, 16);
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'neckar';
+}
+
+.advan{
+    margin: 20px;
+    border: #0A66C2 solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: 800;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+.disadvantitle{
+    display: flex;
+    justify-content: center;
+    color: rgb(91, 48, 16);
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'neckar';
+}
+
+.disadvan{
+    margin: 20px;
+    border: #0A66C2 solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: 800;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+
+.c1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+.v{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding: 15px 15px;
+}
+
+.video1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: #0A66C2 solid ;
+    border-radius: 24px;
+
+}
+
+.video11 iframe{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: #0A66C2 solid ;
+    border-radius: 20px;
+    border-left: 4px #0A66C2 solid;
+    padding-right: 0%;
+}
+
+.video12{
+    padding: 25px;
+    width: 25em;
+}
+
+.w1{
+    padding: 5px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.video11{
+    padding: 0%;
+    margin: 0%
+}
+
+
